@@ -172,7 +172,7 @@ const Homepage = () => {
                 <a
                   target="_blank"
                   className="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4"
-                  href="https://www.youtube.com/channel/UCWYz4W6m1toUP7x0M1od3fA"
+                  href="https://www.youtube.com/@arjunnsarkarr"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -194,7 +194,7 @@ const Homepage = () => {
                 <a
                   target="_blank"
                   className="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4"
-                  href="https://stackoverflow.com/users/20331641/neeraj-walia"
+                  href="https://github.com/arjunnsarkarr"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
