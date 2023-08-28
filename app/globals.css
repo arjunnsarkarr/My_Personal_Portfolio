@@ -877,3 +877,36 @@ body {
   line-gap-override: 0.00%;
   size-adjust: 107.40%;
 }
+
+
+
+
+
+.effect {
+  overflow: hidden;
+  /* height: 40%; */
+  width: fit-content;
+  white-space: nowrap;
+  /* border-right: 4px solid yellow; */
+  animation: blink 0.75s step-end infinite, typing 6s steps(45,end) infinite;
+}
+
+@keyframes typing {
+  from , to {
+      width: 0;
+  }
+  50%{
+      width: 100%;
+  }
+}
+
+/* @keyframes blink {
+  from , to{
+      border-color: transparent;
+  }
+  50% {
+      border-color: yellow;
+  }
+} */
+
+

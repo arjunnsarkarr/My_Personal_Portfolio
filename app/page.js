@@ -326,7 +326,7 @@ const Homepage = () => {
                   <div className="flex md:flex-1 flex-col justify-center gap-4">
                     <div className="flex justify-between items-center gap-5 ">
                       <div className="text-3xl flex flex-col font-bold text-highlight">
-                        ARJUN SARKAR
+                        <div className="effect">ARJUN SARKAR  &nbsp; &nbsp;  </div>
                         <div className="text-sm font-thin flex justify-between items-center">
                           @arjunnsarkarr
                           <a
@@ -400,7 +400,20 @@ const Homepage = () => {
                   </div>
                 </div>
               </div>
+
+
+
               <div className="flex flex-col gap-10 lg:px-10">
+                
+                <section className="grid gap-5 mt-10 p-5 md:p-0">
+                  <div className="text-xl font-bold text-highlight">
+                    A Quick Introduction About Me
+                  </div>
+                      <p>heyheyhyehy Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, quia quisquam? Odio reprehenderit aperiam, fugiat id officiis laudantium veritatis provident sint et alias dolorem totam aspernatur quis cumque temporibus distinctio eveniet. Eos sapiente iste optio non cupiditate magnam eius sint!</p>
+                </section>
+                
+
+
                 <section className="grid gap-5 p-5 md:p-0">
                   <div className="text-xl font-bold text-highlight">
                     Projects
@@ -494,6 +507,11 @@ const Homepage = () => {
                     </div>
                   </div>
                 </section>
+                
+
+
+
+
                 <section className="grid gap-5 p-5 md:p-0">
                   <div className="text-xl font-bold text-highlight">
                     Frontend
