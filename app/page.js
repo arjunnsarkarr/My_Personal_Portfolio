@@ -241,7 +241,7 @@ const Homepage = () => {
                 <a
                   target="_blank"
                   className="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4"
-                  href="https://github.com/nwaliaez/ezClothing"
+                  href="https://github.com/arjunnsarkarr"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -317,7 +317,7 @@ const Homepage = () => {
                       data-nimg={1}
                       className="object-cover border-4 border-white rounded-full shadow-md"
                       style={{ color: "transparent" }}
-                      src="https://my-portfolio-git-master-Arjun-Sarkar.vercel.app/"
+                      src="/arjun.jpeg"
                     />
                   </div>
                   <div className="flex md:flex-1 flex-col justify-center gap-4">
@@ -329,7 +329,7 @@ const Homepage = () => {
                           <a
                             className="block md:hidden"
                             target="_blank"
-                            href="https://www.instagram.com/the.morning__star/"
+                            href="https://www.instagram.com/arjunnsarkarr/"
                           >
                             <button className="h-max w-max flex gap-2 justify-center items-center rounded-md outline-0 active:scale-95 active:shadow-inner disabled:opacity-50 disabled:pointer-events-none disbaled:cursor-not-allowed bg-cardPrimary text-primary font-semibold text-xs p-2">
                               <svg
@@ -362,7 +362,7 @@ const Homepage = () => {
                       <a
                         className="hidden md:block"
                         target="_blank"
-                        href="https://instagram.com/ezSnippet"
+                        href="https://instagram.com/arjunnsarkarr"
                       >
                         <button className="h-max w-max flex gap-2 justify-center items-center rounded-md outline-0 active:scale-95 active:shadow-inner disabled:opacity-50 disabled:pointer-events-none disbaled:cursor-not-allowed bg-cardPrimary text-primary font-semibold text-xs py-2 px-4">
                           <svg
@@ -406,7 +406,7 @@ const Homepage = () => {
                     <div className="flex flex-col gap-3">
                       <a
                         target="_blank"
-                        href="https://github.com/nwaliaez/ezClothing"
+                        href="https://github.com/arjunnsarkarr"
                       >
                         <div className="relative aspect-video rounded-lg overflow-hidden">
                           <img
@@ -426,8 +426,7 @@ const Homepage = () => {
                               color: "transparent",
                             }}
                             sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2FezClothing.jpeg&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2FezClothing.jpeg&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2FezClothing.jpeg&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2FezClothing.jpeg&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2FezClothing.jpeg&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2FezClothing.jpeg&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2FezClothing.jpeg&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2FezClothing.jpeg&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2FezClothing.jpeg&w=3840&q=75"
+                            src="/image26.jpg"
                           />
                           <div className="progress-bar">
                             <div
@@ -517,7 +516,7 @@ const Homepage = () => {
                               color: "transparent",
                             }}
                             sizes="100vw"
-                            src="https://my-portfolio-git-master-Arjun-Sarkar.vercel.app/images/image20.jpg"
+                            src="/htmlandcss.jpg"
                           />
                           <div className="progress-bar">
                             <div
@@ -600,7 +599,7 @@ const Homepage = () => {
                               color: "transparent",
                             }}
                             sizes="100vw"
-                            src="https://my-portfolio-git-master-Arjun-Sarkar.vercel.app/images/image24.jpg"
+                            src="/tailwindcss.jpg"
                           />
                           <div className="progress-bar">
                             <div
@@ -681,7 +680,7 @@ const Homepage = () => {
                               color: "transparent",
                             }}
                             sizes="100vw"
-                            src="https://my-portfolio-git-master-Arjun-Sarkar.vercel.app/images/image21.jpg"
+                            src="/jsandts.jpg"
                           />
                           <div className="progress-bar">
                             <div
@@ -764,7 +763,7 @@ const Homepage = () => {
                               color: "transparent",
                             }}
                             sizes="100vw"
-                            src="https://my-portfolio-git-master-Arjun-Sarkar.vercel.app/images/image23.jpg"
+                            src="/reactandts.jpg"
                           />
                           <div className="progress-bar">
                             <div
@@ -845,7 +844,7 @@ const Homepage = () => {
                               color: "transparent",
                             }}
                             sizes="100vw"
-                            src="https://my-portfolio-git-master-Arjun-Sarkar.vercel.app/images/image22.jpg"
+                            src="/nextjs.jpg"
                           />
                           <div className="progress-bar">
                             <div
@@ -935,8 +934,7 @@ const Homepage = () => {
                               color: "transparent",
                             }}
                             sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fnodejs.webp&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fnodejs.webp&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fnodejs.webp&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fnodejs.webp&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fnodejs.webp&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fnodejs.webp&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fnodejs.webp&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fnodejs.webp&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fnodejs.webp&w=3840&q=75"
+                            src="/nodejs.jpg"
                           />
                           <div className="progress-bar">
                             <div
@@ -1017,8 +1015,7 @@ const Homepage = () => {
                               color: "transparent",
                             }}
                             sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fexpress.png&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fexpress.png&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fexpress.png&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fexpress.png&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fexpress.png&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fexpress.png&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fexpress.png&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fexpress.png&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fexpress.png&w=3840&q=75"
+                            src="/expressjs.jpg"
                           />
                           <div className="progress-bar">
                             <div
@@ -1081,254 +1078,7 @@ const Homepage = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="flex flex-col gap-3">
-                      <a target="_blank" href="/">
-                        <div className="relative aspect-video rounded-lg overflow-hidden">
-                          <img
-                            alt="DenoJs"
-                            loading="lazy"
-                            decoding="async"
-                            data-nimg="fill"
-                            className="object-cover"
-                            style={{
-                              position: "absolute",
-                              height: "100%",
-                              width: "100%",
-                              left: 0,
-                              top: 0,
-                              right: 0,
-                              bottom: 0,
-                              color: "transparent",
-                            }}
-                            sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fdenojs.webp&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fdenojs.webp&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fdenojs.webp&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fdenojs.webp&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fdenojs.webp&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fdenojs.webp&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fdenojs.webp&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fdenojs.webp&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fdenojs.webp&w=3840&q=75"
-                          />
-                          <div className="progress-bar">
-                            <div
-                              className="h-full bg-btnHighlight"
-                              style={{ width: "60%" }}
-                            />
-                          </div>
-                        </div>
-                      </a>
-                      <div className="grid gap-2 px-2">
-                        <div className="text-highlight font-bold">DenoJs</div>
-                        <div className="flex gap-2 md:gap-10">
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-code"
-                            >
-                              <polyline points="16 18 22 12 16 6" />
-                              <polyline points="8 6 2 12 8 18" />
-                            </svg>
-                            1,128
-                          </a>
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-history"
-                            >
-                              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-                              <path d="M3 3v5h5" />
-                              <path d="M12 7v5l4 2" />
-                            </svg>
-                            1 day ago
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex flex-col gap-3">
-                      <a target="_blank" href="/">
-                        <div className="relative aspect-video rounded-lg overflow-hidden">
-                          <img
-                            alt="Next Auth"
-                            loading="lazy"
-                            decoding="async"
-                            data-nimg="fill"
-                            className="object-cover"
-                            style={{
-                              position: "absolute",
-                              height: "100%",
-                              width: "100%",
-                              left: 0,
-                              top: 0,
-                              right: 0,
-                              bottom: 0,
-                              color: "transparent",
-                            }}
-                            sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fnextauth.png&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fnextauth.png&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fnextauth.png&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fnextauth.png&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fnextauth.png&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fnextauth.png&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fnextauth.png&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fnextauth.png&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fnextauth.png&w=3840&q=75"
-                          />
-                          <div className="progress-bar">
-                            <div
-                              className="h-full bg-btnHighlight"
-                              style={{ width: "90%" }}
-                            />
-                          </div>
-                        </div>
-                      </a>
-                      <div className="grid gap-2 px-2">
-                        <div className="text-highlight font-bold">
-                          Next Auth
-                        </div>
-                        <div className="flex gap-2 md:gap-10">
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-code"
-                            >
-                              <polyline points="16 18 22 12 16 6" />
-                              <polyline points="8 6 2 12 8 18" />
-                            </svg>
-                            1,128
-                          </a>
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-history"
-                            >
-                              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-                              <path d="M3 3v5h5" />
-                              <path d="M12 7v5l4 2" />
-                            </svg>
-                            1 day ago
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex flex-col gap-3">
-                      <a target="_blank" href="/">
-                        <div className="relative aspect-video rounded-lg overflow-hidden">
-                          <img
-                            alt="PHP"
-                            loading="lazy"
-                            decoding="async"
-                            data-nimg="fill"
-                            className="object-cover"
-                            style={{
-                              position: "absolute",
-                              height: "100%",
-                              width: "100%",
-                              left: 0,
-                              top: 0,
-                              right: 0,
-                              bottom: 0,
-                              color: "transparent",
-                            }}
-                            sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fphp.png&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fphp.png&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fphp.png&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fphp.png&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fphp.png&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fphp.png&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fphp.png&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fphp.png&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fphp.png&w=3840&q=75"
-                          />
-                          <div className="progress-bar">
-                            <div
-                              className="h-full bg-btnHighlight"
-                              style={{ width: "70%" }}
-                            />
-                          </div>
-                        </div>
-                      </a>
-                      <div className="grid gap-2 px-2">
-                        <div className="text-highlight font-bold">PHP</div>
-                        <div className="flex gap-2 md:gap-10">
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-code"
-                            >
-                              <polyline points="16 18 22 12 16 6" />
-                              <polyline points="8 6 2 12 8 18" />
-                            </svg>
-                            1,128
-                          </a>
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-history"
-                            >
-                              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-                              <path d="M3 3v5h5" />
-                              <path d="M12 7v5l4 2" />
-                            </svg>
-                            1 day ago
-                          </a>
-                        </div>
-                      </div>
-                    </div>
+                
                   </div>
                 </section>
                 <section className="grid gap-5 p-5 md:p-0">
@@ -1336,88 +1086,7 @@ const Homepage = () => {
                     Database
                   </div>
                   <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl::grid-cols-5 gap-5">
-                    <div className="flex flex-col gap-3">
-                      <a target="_blank" href="/">
-                        <div className="relative aspect-video rounded-lg overflow-hidden">
-                          <img
-                            alt="MySQL"
-                            loading="lazy"
-                            decoding="async"
-                            data-nimg="fill"
-                            className="object-cover"
-                            style={{
-                              position: "absolute",
-                              height: "100%",
-                              width: "100%",
-                              left: 0,
-                              top: 0,
-                              right: 0,
-                              bottom: 0,
-                              color: "transparent",
-                            }}
-                            sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmysql.jpeg&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmysql.jpeg&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmysql.jpeg&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmysql.jpeg&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmysql.jpeg&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmysql.jpeg&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmysql.jpeg&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmysql.jpeg&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmysql.jpeg&w=3840&q=75"
-                          />
-                          <div className="progress-bar">
-                            <div
-                              className="h-full bg-btnHighlight"
-                              style={{ width: "80%" }}
-                            />
-                          </div>
-                        </div>
-                      </a>
-                      <div className="grid gap-2 px-2">
-                        <div className="text-highlight font-bold">MySQL</div>
-                        <div className="flex gap-2 md:gap-10">
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-code"
-                            >
-                              <polyline points="16 18 22 12 16 6" />
-                              <polyline points="8 6 2 12 8 18" />
-                            </svg>
-                            1,128
-                          </a>
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-history"
-                            >
-                              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-                              <path d="M3 3v5h5" />
-                              <path d="M12 7v5l4 2" />
-                            </svg>
-                            1 day ago
-                          </a>
-                        </div>
-                      </div>
-                    </div>
+                            
                     <div className="flex flex-col gap-3">
                       <a target="_blank" href="/">
                         <div className="relative aspect-video rounded-lg overflow-hidden">
@@ -1438,8 +1107,7 @@ const Homepage = () => {
                               color: "transparent",
                             }}
                             sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmongo.png&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmongo.png&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmongo.png&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmongo.png&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmongo.png&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmongo.png&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmongo.png&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmongo.png&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmongo.png&w=3840&q=75"
+                            src="/mongodb.jpg"
                           />
                           <div className="progress-bar">
                             <div
@@ -1500,427 +1168,16 @@ const Homepage = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="flex flex-col gap-3">
-                      <a target="_blank" href="/">
-                        <div className="relative aspect-video rounded-lg overflow-hidden">
-                          <img
-                            alt="Redis"
-                            loading="lazy"
-                            decoding="async"
-                            data-nimg="fill"
-                            className="object-cover"
-                            style={{
-                              position: "absolute",
-                              height: "100%",
-                              width: "100%",
-                              left: 0,
-                              top: 0,
-                              right: 0,
-                              bottom: 0,
-                              color: "transparent",
-                            }}
-                            sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fredis.jpeg&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fredis.jpeg&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fredis.jpeg&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fredis.jpeg&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fredis.jpeg&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fredis.jpeg&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fredis.jpeg&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fredis.jpeg&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fredis.jpeg&w=3840&q=75"
-                          />
-                          <div className="progress-bar">
-                            <div
-                              className="h-full bg-btnHighlight"
-                              style={{ width: "70%" }}
-                            />
-                          </div>
-                        </div>
-                      </a>
-                      <div className="grid gap-2 px-2">
-                        <div className="text-highlight font-bold">Redis</div>
-                        <div className="flex gap-2 md:gap-10">
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-code"
-                            >
-                              <polyline points="16 18 22 12 16 6" />
-                              <polyline points="8 6 2 12 8 18" />
-                            </svg>
-                            1,128
-                          </a>
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-history"
-                            >
-                              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-                              <path d="M3 3v5h5" />
-                              <path d="M12 7v5l4 2" />
-                            </svg>
-                            1 day ago
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex flex-col gap-3">
-                      <a target="_blank" href="/">
-                        <div className="relative aspect-video rounded-lg overflow-hidden">
-                          <img
-                            alt="PostgreSQL"
-                            loading="lazy"
-                            decoding="async"
-                            data-nimg="fill"
-                            className="object-cover"
-                            style={{
-                              position: "absolute",
-                              height: "100%",
-                              width: "100%",
-                              left: 0,
-                              top: 0,
-                              right: 0,
-                              bottom: 0,
-                              color: "transparent",
-                            }}
-                            sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fpostgres.png&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fpostgres.png&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fpostgres.png&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fpostgres.png&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fpostgres.png&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fpostgres.png&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fpostgres.png&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fpostgres.png&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fpostgres.png&w=3840&q=75"
-                          />
-                          <div className="progress-bar">
-                            <div
-                              className="h-full bg-btnHighlight"
-                              style={{ width: "70%" }}
-                            />
-                          </div>
-                        </div>
-                      </a>
-                      <div className="grid gap-2 px-2">
-                        <div className="text-highlight font-bold">
-                          PostgreSQL
-                        </div>
-                        <div className="flex gap-2 md:gap-10">
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-code"
-                            >
-                              <polyline points="16 18 22 12 16 6" />
-                              <polyline points="8 6 2 12 8 18" />
-                            </svg>
-                            1,128
-                          </a>
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-history"
-                            >
-                              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-                              <path d="M3 3v5h5" />
-                              <path d="M12 7v5l4 2" />
-                            </svg>
-                            1 day ago
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex flex-col gap-3">
-                      <a target="_blank" href="/">
-                        <div className="relative aspect-video rounded-lg overflow-hidden">
-                          <img
-                            alt="Elastic Search"
-                            loading="lazy"
-                            decoding="async"
-                            data-nimg="fill"
-                            className="object-cover"
-                            style={{
-                              position: "absolute",
-                              height: "100%",
-                              width: "100%",
-                              left: 0,
-                              top: 0,
-                              right: 0,
-                              bottom: 0,
-                              color: "transparent",
-                            }}
-                            sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2FelasticSearch.png&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2FelasticSearch.png&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2FelasticSearch.png&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2FelasticSearch.png&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2FelasticSearch.png&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2FelasticSearch.png&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2FelasticSearch.png&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2FelasticSearch.png&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2FelasticSearch.png&w=3840&q=75"
-                          />
-                          <div className="progress-bar">
-                            <div
-                              className="h-full bg-btnHighlight"
-                              style={{ width: "70%" }}
-                            />
-                          </div>
-                        </div>
-                      </a>
-                      <div className="grid gap-2 px-2">
-                        <div className="text-highlight font-bold">
-                          Elastic Search
-                        </div>
-                        <div className="flex gap-2 md:gap-10">
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-code"
-                            >
-                              <polyline points="16 18 22 12 16 6" />
-                              <polyline points="8 6 2 12 8 18" />
-                            </svg>
-                            1,128
-                          </a>
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-history"
-                            >
-                              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-                              <path d="M3 3v5h5" />
-                              <path d="M12 7v5l4 2" />
-                            </svg>
-                            1 day ago
-                          </a>
-                        </div>
-                      </div>
-                    </div>
+                
                   </div>
+
+
                 </section>
                 <section className="grid gap-5 p-5 md:p-0">
                   <div className="text-xl font-bold text-highlight">DevOps</div>
                   <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl::grid-cols-5 gap-5">
-                    <div className="flex flex-col gap-3">
-                      <a target="_blank" href="/">
-                        <div className="relative aspect-video rounded-lg overflow-hidden">
-                          <img
-                            alt="Docker"
-                            loading="lazy"
-                            decoding="async"
-                            data-nimg="fill"
-                            className="object-cover"
-                            style={{
-                              position: "absolute",
-                              height: "100%",
-                              width: "100%",
-                              left: 0,
-                              top: 0,
-                              right: 0,
-                              bottom: 0,
-                              color: "transparent",
-                            }}
-                            sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fdocker.webp&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fdocker.webp&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fdocker.webp&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fdocker.webp&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fdocker.webp&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fdocker.webp&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fdocker.webp&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fdocker.webp&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fdocker.webp&w=3840&q=75"
-                          />
-                          <div className="progress-bar">
-                            <div
-                              className="h-full bg-btnHighlight"
-                              style={{ width: "80%" }}
-                            />
-                          </div>
-                        </div>
-                      </a>
-                      <div className="grid gap-2 px-2">
-                        <div className="text-highlight font-bold">Docker</div>
-                        <div className="flex gap-2 md:gap-10">
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-code"
-                            >
-                              <polyline points="16 18 22 12 16 6" />
-                              <polyline points="8 6 2 12 8 18" />
-                            </svg>
-                            1,128
-                          </a>
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-history"
-                            >
-                              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-                              <path d="M3 3v5h5" />
-                              <path d="M12 7v5l4 2" />
-                            </svg>
-                            1 day ago
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex flex-col gap-3">
-                      <a target="_blank" href="/">
-                        <div className="relative aspect-video rounded-lg overflow-hidden">
-                          <img
-                            alt="Kubernetes"
-                            loading="lazy"
-                            decoding="async"
-                            data-nimg="fill"
-                            className="object-cover"
-                            style={{
-                              position: "absolute",
-                              height: "100%",
-                              width: "100%",
-                              left: 0,
-                              top: 0,
-                              right: 0,
-                              bottom: 0,
-                              color: "transparent",
-                            }}
-                            sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fk8s.png&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fk8s.png&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fk8s.png&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fk8s.png&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fk8s.png&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fk8s.png&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fk8s.png&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fk8s.png&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fk8s.png&w=3840&q=75"
-                          />
-                          <div className="progress-bar">
-                            <div
-                              className="h-full bg-btnHighlight"
-                              style={{ width: "80%" }}
-                            />
-                          </div>
-                        </div>
-                      </a>
-                      <div className="grid gap-2 px-2">
-                        <div className="text-highlight font-bold">
-                          Kubernetes
-                        </div>
-                        <div className="flex gap-2 md:gap-10">
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-code"
-                            >
-                              <polyline points="16 18 22 12 16 6" />
-                              <polyline points="8 6 2 12 8 18" />
-                            </svg>
-                            1,128
-                          </a>
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-history"
-                            >
-                              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-                              <path d="M3 3v5h5" />
-                              <path d="M12 7v5l4 2" />
-                            </svg>
-                            1 day ago
-                          </a>
-                        </div>
-                      </div>
-                    </div>
+                   
+                   
                     <div className="flex flex-col gap-3">
                       <a target="_blank" href="/">
                         <div className="relative aspect-video rounded-lg overflow-hidden">
@@ -1941,8 +1198,7 @@ const Homepage = () => {
                               color: "transparent",
                             }}
                             sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fgit.png&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fgit.png&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fgit.png&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fgit.png&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fgit.png&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fgit.png&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fgit.png&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fgit.png&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fgit.png&w=3840&q=75"
+                            src="/git.jpg"
                           />
                           <div className="progress-bar">
                             <div
@@ -2003,177 +1259,14 @@ const Homepage = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="flex flex-col gap-3">
-                      <a target="_blank" href="/">
-                        <div className="relative aspect-video rounded-lg overflow-hidden">
-                          <img
-                            alt="Jenkins"
-                            loading="lazy"
-                            decoding="async"
-                            data-nimg="fill"
-                            className="object-cover"
-                            style={{
-                              position: "absolute",
-                              height: "100%",
-                              width: "100%",
-                              left: 0,
-                              top: 0,
-                              right: 0,
-                              bottom: 0,
-                              color: "transparent",
-                            }}
-                            sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fjenkins.png&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fjenkins.png&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fjenkins.png&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fjenkins.png&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fjenkins.png&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fjenkins.png&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fjenkins.png&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fjenkins.png&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fjenkins.png&w=3840&q=75"
-                          />
-                          <div className="progress-bar">
-                            <div
-                              className="h-full bg-btnHighlight"
-                              style={{ width: "70%" }}
-                            />
-                          </div>
-                        </div>
-                      </a>
-                      <div className="grid gap-2 px-2">
-                        <div className="text-highlight font-bold">Jenkins</div>
-                        <div className="flex gap-2 md:gap-10">
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-code"
-                            >
-                              <polyline points="16 18 22 12 16 6" />
-                              <polyline points="8 6 2 12 8 18" />
-                            </svg>
-                            1,128
-                          </a>
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-history"
-                            >
-                              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-                              <path d="M3 3v5h5" />
-                              <path d="M12 7v5l4 2" />
-                            </svg>
-                            1 day ago
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex flex-col gap-3">
-                      <a target="_blank" href="/">
-                        <div className="relative aspect-video rounded-lg overflow-hidden">
-                          <img
-                            alt="Terraform"
-                            loading="lazy"
-                            decoding="async"
-                            data-nimg="fill"
-                            className="object-cover"
-                            style={{
-                              position: "absolute",
-                              height: "100%",
-                              width: "100%",
-                              left: 0,
-                              top: 0,
-                              right: 0,
-                              bottom: 0,
-                              color: "transparent",
-                            }}
-                            sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fterraform.png&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fterraform.png&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fterraform.png&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fterraform.png&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fterraform.png&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fterraform.png&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fterraform.png&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fterraform.png&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fterraform.png&w=3840&q=75"
-                          />
-                          <div className="progress-bar">
-                            <div
-                              className="h-full bg-btnHighlight"
-                              style={{ width: "60%" }}
-                            />
-                          </div>
-                        </div>
-                      </a>
-                      <div className="grid gap-2 px-2">
-                        <div className="text-highlight font-bold">
-                          Terraform
-                        </div>
-                        <div className="flex gap-2 md:gap-10">
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-code"
-                            >
-                              <polyline points="16 18 22 12 16 6" />
-                              <polyline points="8 6 2 12 8 18" />
-                            </svg>
-                            1,128
-                          </a>
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-history"
-                            >
-                              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-                              <path d="M3 3v5h5" />
-                              <path d="M12 7v5l4 2" />
-                            </svg>
-                            1 day ago
-                          </a>
-                        </div>
-                      </div>
-                    </div>
+                    
                   </div>
                 </section>
+
                 <section className="grid gap-5 p-5 md:p-0">
                   <div className="text-xl font-bold text-highlight">Web3</div>
                   <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl::grid-cols-5 gap-5">
+                    {/* solidity */}
                     <div className="flex flex-col gap-3">
                       <a target="_blank" href="/">
                         <div className="relative aspect-video rounded-lg overflow-hidden">
@@ -2194,8 +1287,7 @@ const Homepage = () => {
                               color: "transparent",
                             }}
                             sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fsolidity.jfif&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fsolidity.jfif&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fsolidity.jfif&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fsolidity.jfif&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fsolidity.jfif&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fsolidity.jfif&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fsolidity.jfif&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fsolidity.jfif&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fsolidity.jfif&w=3840&q=75"
+                            src="/solidity.webp"
                           />
                           <div className="progress-bar">
                             <div
@@ -2256,6 +1348,7 @@ const Homepage = () => {
                         </div>
                       </div>
                     </div>
+                    {/* ḥardhat */}
                     <div className="flex flex-col gap-3">
                       <a target="_blank" href="/">
                         <div className="relative aspect-video rounded-lg overflow-hidden">
@@ -2276,8 +1369,7 @@ const Homepage = () => {
                               color: "transparent",
                             }}
                             sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fhardhat.jpeg&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fhardhat.jpeg&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fhardhat.jpeg&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fhardhat.jpeg&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fhardhat.jpeg&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fhardhat.jpeg&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fhardhat.jpeg&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fhardhat.jpeg&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fhardhat.jpeg&w=3840&q=75"
+                            src="hardhat.jpg"
                           />
                           <div className="progress-bar">
                             <div
@@ -2338,6 +1430,7 @@ const Homepage = () => {
                         </div>
                       </div>
                     </div>
+                    {/* metamask */}
                     <div className="flex flex-col gap-3">
                       <a target="_blank" href="/">
                         <div className="relative aspect-video rounded-lg overflow-hidden">
@@ -2358,8 +1451,7 @@ const Homepage = () => {
                               color: "transparent",
                             }}
                             sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fmetamask.webp&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fmetamask.webp&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fmetamask.webp&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fmetamask.webp&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fmetamask.webp&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fmetamask.webp&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fmetamask.webp&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fmetamask.webp&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fmetamask.webp&w=3840&q=75"
+                            src="/metamask.jpg"
                           />
                           <div className="progress-bar">
                             <div
@@ -2420,180 +1512,14 @@ const Homepage = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="flex flex-col gap-3">
-                      <a target="_blank" href="/">
-                        <div className="relative aspect-video rounded-lg overflow-hidden">
-                          <img
-                            alt="Chainlink"
-                            loading="lazy"
-                            decoding="async"
-                            data-nimg="fill"
-                            className="object-cover"
-                            style={{
-                              position: "absolute",
-                              height: "100%",
-                              width: "100%",
-                              left: 0,
-                              top: 0,
-                              right: 0,
-                              bottom: 0,
-                              color: "transparent",
-                            }}
-                            sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fchainlink.png&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fchainlink.png&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fchainlink.png&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fchainlink.png&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fchainlink.png&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fchainlink.png&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fchainlink.png&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fchainlink.png&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fchainlink.png&w=3840&q=75"
-                          />
-                          <div className="progress-bar">
-                            <div
-                              className="h-full bg-btnHighlight"
-                              style={{ width: "80%" }}
-                            />
-                          </div>
-                        </div>
-                      </a>
-                      <div className="grid gap-2 px-2">
-                        <div className="text-highlight font-bold">
-                          Chainlink
-                        </div>
-                        <div className="flex gap-2 md:gap-10">
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-code"
-                            >
-                              <polyline points="16 18 22 12 16 6" />
-                              <polyline points="8 6 2 12 8 18" />
-                            </svg>
-                            1,128
-                          </a>
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-history"
-                            >
-                              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-                              <path d="M3 3v5h5" />
-                              <path d="M12 7v5l4 2" />
-                            </svg>
-                            1 day ago
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex flex-col gap-3">
-                      <a target="_blank" href="/">
-                        <div className="relative aspect-video rounded-lg overflow-hidden">
-                          <img
-                            alt="OpenZeppelin"
-                            loading="lazy"
-                            decoding="async"
-                            data-nimg="fill"
-                            className="object-cover"
-                            style={{
-                              position: "absolute",
-                              height: "100%",
-                              width: "100%",
-                              left: 0,
-                              top: 0,
-                              right: 0,
-                              bottom: 0,
-                              color: "transparent",
-                            }}
-                            sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fopenzeppelin.png&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fopenzeppelin.png&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fopenzeppelin.png&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fopenzeppelin.png&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fopenzeppelin.png&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fopenzeppelin.png&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fopenzeppelin.png&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fopenzeppelin.png&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fweb3%2Fopenzeppelin.png&w=3840&q=75"
-                          />
-                          <div className="progress-bar">
-                            <div
-                              className="h-full bg-btnHighlight"
-                              style={{ width: "70%" }}
-                            />
-                          </div>
-                        </div>
-                      </a>
-                      <div className="grid gap-2 px-2">
-                        <div className="text-highlight font-bold">
-                          OpenZeppelin
-                        </div>
-                        <div className="flex gap-2 md:gap-10">
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-code"
-                            >
-                              <polyline points="16 18 22 12 16 6" />
-                              <polyline points="8 6 2 12 8 18" />
-                            </svg>
-                            1,128
-                          </a>
-                          <a
-                            target="_blank"
-                            className="flex items-center text-info text-xs gap-1"
-                            href="/"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={16}
-                              height={16}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="lucide lucide-history"
-                            >
-                              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-                              <path d="M3 3v5h5" />
-                              <path d="M12 7v5l4 2" />
-                            </svg>
-                            1 day ago
-                          </a>
-                        </div>
-                      </div>
-                    </div>
+                   
                   </div>
                 </section>
 
                 <section className="grid gap-5 p-5 md:p-0">
                   <div className="text-xl font-bold text-highlight">Others</div>
                   <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl::grid-cols-5 gap-5">
+                    {/* rest api */}
                     <div className="flex flex-col gap-3">
                       <a target="_blank" href="/">
                         <div className="relative aspect-video rounded-lg overflow-hidden">
@@ -2614,8 +1540,7 @@ const Homepage = () => {
                               color: "transparent",
                             }}
                             sizes="100vw"
-                            srcSet="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fothers%2Frest.png&w=640&q=75   640w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fothers%2Frest.png&w=750&q=75   750w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fothers%2Frest.png&w=828&q=75   828w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fothers%2Frest.png&w=1080&q=75   1080w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fothers%2Frest.png&w=1200&q=75   1200w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fothers%2Frest.png&w=1920&q=75   1920w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fothers%2Frest.png&w=2048&q=75   2048w,https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fothers%2Frest.png&w=3840&q=75   3840w"
-                            src="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fothers%2Frest.png&w=3840&q=75"
+                            src="/restapi.jpg"
                           />
                           <div className="progress-bar">
                             <div
