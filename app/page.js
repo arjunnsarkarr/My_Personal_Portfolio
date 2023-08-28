@@ -262,11 +262,14 @@ const Homepage = () => {
               </div>
             </div>
           </aside>
+
+
+          
           <main className="flex-1 pl-0 lg:pl-[300px]">
             <nav className="flex sticky shadow-md top-0 z-20 bg-body p-5 text-info justify-between">
               <div />
               <div className="flex items-center gap-5">
-                <button className="h-max w-max flex gap-2 justify-center items-center rounded-md outline-0 active:scale-95 active:shadow-inner disabled:opacity-50 disabled:pointer-events-none disbaled:cursor-not-allowed bg-btnHighlight text-highlight text-xs py-2 px-4">
+                <button className="h-max w-max flex gap-2 justify-center items-center rounded-md outlim-0 active:scale-95 active:shadow-inner disabled:opacity-50 disabled:pointer-events-none disbaled:cursor-not-allowed bg-btnHighlight text-highlight text-xs py-2 px-4">
                   Contact Me
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -444,7 +447,7 @@ const Homepage = () => {
                           <a
                             target="_blank"
                             className="flex items-center text-info text-xs gap-1"
-                            href="https://github.com/nwaliaez/ezClothing"
+                            href="https://github.com/arjunnsarkarr"
                           >
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -466,7 +469,7 @@ const Homepage = () => {
                           <a
                             target="_blank"
                             className="flex items-center text-info text-xs gap-1"
-                            href="https://github.com/nwaliaez/ezClothing"
+                            href="https://github.com/arjunnsarkarr"
                           >
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
