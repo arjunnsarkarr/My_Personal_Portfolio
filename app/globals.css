@@ -28,15 +28,18 @@ body {
   width: fit-content;
   white-space: nowrap;
   /* border-right: 4px solid yellow; */
-  animation: blink 0.75s step-end infinite, typing 3.5s steps(30,end) infinite;
+  animation: blink 0.75s step-end infinite, typing 3.5s steps(30, end) infinite;
 }
 
 @keyframes typing {
-  from , to {
-      width: 0;
+
+  from,
+  to {
+    width: 0;
   }
-  50%{
-      width: 100%;
+
+  50% {
+    width: 100%;
   }
 }
 
@@ -48,3 +51,8 @@ body {
       border-color: yellow;
   }
 } */
+
+
+.bg-\[url\(\'\/images\/cover\.jpeg\'\)\] {
+  background-image: url(/public/arjun.jpeg);
+}
