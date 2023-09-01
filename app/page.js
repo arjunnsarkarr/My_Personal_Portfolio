@@ -307,7 +307,7 @@ const Homepage = () => {
             </nav>
             <div>
               <div className="flex rounded-lg w-full  bg-[url('/images/cover.jpeg')] bg-no-repeat bg-cover">
-                <div className="flex justify-center md:rounded-ld overflow-hidden md:px-10 py-5 bg-blur backdrop-filter backdrop-blur-md w-full gap-2 md:gap-10">
+                <div className="flex justify-center md:rounded-ld overflow-hidden md:px-10 py-5  w-full gap-2 md:gap-10">
                   <div className="">
                     <img
                       alt="Arjun Sarkar"
