@@ -1,6 +1,32 @@
+"use client";
 import React from "react";
 
 const Homepage = () => {
+  var initial = true;
+  const toggleHandler = (e) => {
+    e.preventDefault();
+    const aside = document.querySelector("#asideLeft");
+    const main = document.querySelector("#mains");
+    if (initial) {
+      aside.style.display = "block";
+      main.style.display = "none";
+      initial = false;
+    } else {
+      aside.style.display = "none";
+      main.style.display = "block";
+      initial = true;
+    }
+  };
+
+  const toggleCancelHandler = (e) => {
+    e.preventDefault();
+    const aside = document.querySelector("#asideLeft");
+    const main = document.querySelector("#mains");
+    aside.style.display = "none";
+    main.style.display = "block";
+    initial = true;
+  };
+
   return (
     <>
       <main>
@@ -16,7 +42,10 @@ const Homepage = () => {
           }}
         />
         <div className="flex">
-          <aside className="hidden lg:flex h-screen fixed w-screen sm:w-[300px] z-30">
+          <aside
+            id="asideLeft"
+            className="hidden lg:flex h-screen fixed w-screen sm:w-[300px] z-30"
+          >
             <div className="toggle flex flex-col lg:m-5 w-full">
               <div className="hidden lg:flex gap-2 p-5 pt-0">
                 <div className="h-4 w-4 bg-btnHighlight rounded-full" />
@@ -24,21 +53,23 @@ const Homepage = () => {
               </div>
               <div className="flex relative flex-col h-full p-5 bg-cardPrimary text-primary rounded-lg w-full overflow-y-auto pb-20 md:pb-5">
                 <div className="block lg:hidden p-5 z-10 text-primary absolute right-0 top-0 cursor-pointer text-2xl">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width={24}
-                    height={24}
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="text-primary"
-                  >
-                    <path d="M18 6 6 18" />
-                    <path d="m6 6 12 12" />
-                  </svg>
+                  <button onClick={toggleCancelHandler}>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width={24}
+                      height={24}
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="text-primary"
+                    >
+                      <path d="M18 6 6 18" />
+                      <path d="m6 6 12 12" />
+                    </svg>
+                  </button>
                 </div>
                 <a
                   className="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4"
@@ -263,29 +294,23 @@ const Homepage = () => {
             </div>
           </aside>
 
-          <main className="flex-1 pl-0 lg:pl-[300px]">
+          <main id="mains" className="flex-1 pl-0 lg:pl-[300px]">
             <nav className="flex sticky shadow-md top-0 z-20 bg-body p-5 text-info justify-between">
               <div />
               <div className="flex items-center gap-5">
-                <button className="h-max w-max flex gap-2 justify-center items-center rounded-md outlim-0 active:scale-95 active:shadow-inner disabled:opacity-50 disabled:pointer-events-none disbaled:cursor-not-allowed bg-btnHighlight text-highlight text-xs py-2 px-4">
+                <a
+                  className="px-3 py-1 bg-white text-black rounded-md hover:bg-gray-500 hover:text-white transition duration-300"
+                  href="/arjun.pdf" download="Arjun_Resume.pdf"
+                >
+                  My Resume
+                </a>
+                <a
+                  className="px-3 py-1 bg-white text-black rounded-md hover:bg-gray-500 hover:text-white transition duration-300"
+                  href="mailto:arjunsarkar0001@gmail.com"
+                >
                   Contact Me
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width={18}
-                    height={18}
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="lucide lucide-user"
-                  >
-                    <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
-                    <circle cx={12} cy={7} r={4} />
-                  </svg>
-                </button>
-                <button type="button">
+                </a>
+                <button type="button" onClick={toggleHandler}>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={24}
@@ -305,6 +330,7 @@ const Homepage = () => {
                 </button>
               </div>
             </nav>
+
             <div>
               <div className="flex rounded-lg w-full  bg-[url('/images/cover.jpeg')] bg-no-repeat bg-cover">
                 <div className="flex justify-center md:rounded-ld overflow-hidden md:px-10 py-5  w-full gap-2 md:gap-10">
@@ -408,17 +434,29 @@ const Homepage = () => {
                   </div>
                   <p>
                     {" "}
-                    To get a challenging position in a reputated organization to
-                    expand my learnings, knowledge, and skills. while making a
+                    Hello, I'm Arjun Sarkar, a passionate Full-Stack web developer
+                    dedicated to crafting immersive online experiences. With a
+                    strong foundation in web technologies, I thrive on turning
+                    creative ideas into functional, user-friendly websites.
+                    Whether it's coding elegant front-end designs or optimizing
+                    back-end performance, I take pride in delivering polished
+                    solutions that leave a lasting impression. Welcome to my
+                    digital world, where innovation and code converge to shape
+                    the future of the web.
+                    <br />I am on a quest to secure a challenging position
+                    within a reputable organization where I can further expand
+                    my learnings, knowledge, and skills while making a
                     significant contribution to the success of the organization.
                   </p>
                 </section>
 
+                {/* projects */}
                 <section className="grid gap-5 p-5 md:p-0">
                   <div className="text-xl font-bold text-highlight">
                     Projects
                   </div>
                   <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl::grid-cols-5 gap-5">
+                    {/* wonderworld */}
                     <div className="flex flex-col gap-3">
                       <a
                         target="_blank"
@@ -426,7 +464,7 @@ const Homepage = () => {
                       >
                         <div className="relative aspect-video rounded-lg overflow-hidden">
                           <img
-                            alt="Ez Clothing"
+                            alt="wonder world"
                             loading="lazy"
                             decoding="async"
                             data-nimg="fill"
@@ -442,7 +480,7 @@ const Homepage = () => {
                               color: "transparent",
                             }}
                             sizes="100vw"
-                            src="/image26.jpg"
+                            src="/wonderimage.png"
                           />
                           <div className="progress-bar">
                             <div
@@ -454,7 +492,7 @@ const Homepage = () => {
                       </a>
                       <div className="grid gap-2 px-2">
                         <div className="text-highlight font-bold">
-                          Ez Clothing
+                          Wonder World
                         </div>
                         <div className="flex gap-2 md:gap-10">
                           <a
@@ -483,6 +521,270 @@ const Homepage = () => {
                             target="_blank"
                             className="flex items-center text-info text-xs gap-1"
                             href="https://github.com/arjunnsarkarr"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={16}
+                              height={16}
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              className="lucide lucide-history"
+                            >
+                              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                              <path d="M3 3v5h5" />
+                              <path d="M12 7v5l4 2" />
+                            </svg>
+                            1 day ago
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Social Fund Raising */}
+                    <div className="flex flex-col gap-3">
+                      <a
+                        target="_blank"
+                        href="https://github.com/arjunnsarkarr/Social_Fund_Raising"
+                      >
+                        <div className="relative aspect-video rounded-lg overflow-hidden">
+                          <img
+                            alt="Social Fund Raising"
+                            loading="lazy"
+                            decoding="async"
+                            data-nimg="fill"
+                            className="object-cover"
+                            style={{
+                              position: "absolute",
+                              height: "100%",
+                              width: "100%",
+                              left: 0,
+                              top: 0,
+                              right: 0,
+                              bottom: 0,
+                              color: "transparent",
+                            }}
+                            sizes="100vw"
+                            src="/fundraising.png"
+                          />
+                          <div className="progress-bar">
+                            <div
+                              className="h-full bg-btnHighlight"
+                              style={{ width: "100%" }}
+                            />
+                          </div>
+                        </div>
+                      </a>
+                      <div className="grid gap-2 px-2">
+                        <div className="text-highlight font-bold">
+                          Social Fund Raising
+                        </div>
+                        <div className="flex gap-2 md:gap-10">
+                          <a
+                            target="_blank"
+                            className="flex items-center text-info text-xs gap-1"
+                            href="https://github.com/arjunnsarkarr/Social_Fund_Raising"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={16}
+                              height={16}
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              className="lucide lucide-code"
+                            >
+                              <polyline points="16 18 22 12 16 6" />
+                              <polyline points="8 6 2 12 8 18" />
+                            </svg>
+                            1,128
+                          </a>
+                          <a
+                            target="_blank"
+                            className="flex items-center text-info text-xs gap-1"
+                            href="https://github.com/arjunnsarkarr/Social_Fund_Raising"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={16}
+                              height={16}
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              className="lucide lucide-history"
+                            >
+                              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                              <path d="M3 3v5h5" />
+                              <path d="M12 7v5l4 2" />
+                            </svg>
+                            1 day ago
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* MyPinterest */}
+                    <div className="flex flex-col gap-3">
+                      <a
+                        target="_blank"
+                        href="https://github.com/arjunnsarkarr/MyPinterest"
+                      >
+                        <div className="relative aspect-video rounded-lg overflow-hidden">
+                          <img
+                            alt="MyPinterest"
+                            loading="lazy"
+                            decoding="async"
+                            data-nimg="fill"
+                            className="object-cover"
+                            style={{
+                              position: "absolute",
+                              height: "100%",
+                              width: "100%",
+                              left: 0,
+                              top: 0,
+                              right: 0,
+                              bottom: 0,
+                              color: "transparent",
+                            }}
+                            sizes="100vw"
+                            src="/mypinterest.png"
+                          />
+                          <div className="progress-bar">
+                            <div
+                              className="h-full bg-btnHighlight"
+                              style={{ width: "100%" }}
+                            />
+                          </div>
+                        </div>
+                      </a>
+                      <div className="grid gap-2 px-2">
+                        <div className="text-highlight font-bold">
+                          MyPinterest
+                        </div>
+                        <div className="flex gap-2 md:gap-10">
+                          <a
+                            target="_blank"
+                            className="flex items-center text-info text-xs gap-1"
+                            href="https://github.com/arjunnsarkarr/MyPinterest"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={16}
+                              height={16}
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              className="lucide lucide-code"
+                            >
+                              <polyline points="16 18 22 12 16 6" />
+                              <polyline points="8 6 2 12 8 18" />
+                            </svg>
+                            1,128
+                          </a>
+                          <a
+                            target="_blank"
+                            className="flex items-center text-info text-xs gap-1"
+                            href="https://github.com/arjunnsarkarr/MyPinterest"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={16}
+                              height={16}
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              className="lucide lucide-history"
+                            >
+                              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                              <path d="M3 3v5h5" />
+                              <path d="M12 7v5l4 2" />
+                            </svg>
+                            1 day ago
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Unsplash Clone */}
+                    <div className="flex flex-col gap-3">
+                      <a
+                        target="_blank"
+                        href="https://github.com/arjunnsarkarr/Unsplash_Clone"
+                      >
+                        <div className="relative aspect-video rounded-lg overflow-hidden">
+                          <img
+                            alt="Unsplash Clone"
+                            loading="lazy"
+                            decoding="async"
+                            data-nimg="fill"
+                            className="object-cover"
+                            style={{
+                              position: "absolute",
+                              height: "100%",
+                              width: "100%",
+                              left: 0,
+                              top: 0,
+                              right: 0,
+                              bottom: 0,
+                              color: "transparent",
+                            }}
+                            sizes="100vw"
+                            src="/unsplashclone.png"
+                          />
+                          <div className="progress-bar">
+                            <div
+                              className="h-full bg-btnHighlight"
+                              style={{ width: "100%" }}
+                            />
+                          </div>
+                        </div>
+                      </a>
+                      <div className="grid gap-2 px-2">
+                        <div className="text-highlight font-bold">
+                          Unsplash Clone
+                        </div>
+                        <div className="flex gap-2 md:gap-10">
+                          <a
+                            target="_blank"
+                            className="flex items-center text-info text-xs gap-1"
+                            href="https://github.com/arjunnsarkarr/Unsplash_Clone"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={16}
+                              height={16}
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              className="lucide lucide-code"
+                            >
+                              <polyline points="16 18 22 12 16 6" />
+                              <polyline points="8 6 2 12 8 18" />
+                            </svg>
+                            1,128
+                          </a>
+                          <a
+                            target="_blank"
+                            className="flex items-center text-info text-xs gap-1"
+                            href="https://github.com/arjunnsarkarr/Unsplash_Clone"
                           >
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
