@@ -114,7 +114,7 @@ const Homepage = () => {
                 </a>
                 <a
                   className="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4"
-                  href="/"
+                  href="https://github.com/arjunnsarkarr"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -272,7 +272,7 @@ const Homepage = () => {
                 <a
                   target="_blank"
                   className="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4"
-                  href="https://github.com/arjunnsarkarr"
+                  href="https://mywonderworld.netlify.app"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -288,13 +288,15 @@ const Homepage = () => {
                   >
                     <path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z" />
                   </svg>
-                  Ez CLothing
+                  WonderWorld
                 </a>
               </div>
             </div>
           </aside>
 
           <main id="mains" className="flex-1 pl-0 lg:pl-[300px]">
+            
+            {/* navbar */}
             <nav className="flex sticky shadow-md top-0 z-20 bg-body p-5 text-info justify-between">
               <div />
               <div className="flex items-center gap-5">
@@ -331,10 +333,12 @@ const Homepage = () => {
               </div>
             </nav>
 
-            <div>
+
+
+              {/* containing my name and picture */}
               <div className="flex rounded-lg w-full  bg-[url('/images/cover.jpeg')] bg-no-repeat bg-cover">
                 <div className="flex justify-center md:rounded-ld overflow-hidden md:px-10 py-5  w-full gap-2 md:gap-10">
-                  <div className="">
+                  <div >
                     <img
                       alt="Arjun Sarkar"
                       loading="lazy"
@@ -428,6 +432,9 @@ const Homepage = () => {
               </div>
 
               <div className="flex flex-col gap-10 lg:px-10">
+
+
+                {/* INTRODUCTION */}
                 <section className="grid gap-5 mt-10 p-5 md:p-0">
                   <div className="text-xl font-bold text-highlight">
                     A Quick Introduction About Me
@@ -456,11 +463,12 @@ const Homepage = () => {
                     Projects
                   </div>
                   <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl::grid-cols-5 gap-5">
+                  
                     {/* wonderworld */}
                     <div className="flex flex-col gap-3">
                       <a
                         target="_blank"
-                        href="https://github.com/arjunnsarkarr"
+                        href="https://mywonderworld.netlify.app"
                       >
                         <div className="relative aspect-video rounded-lg overflow-hidden">
                           <img
@@ -498,7 +506,7 @@ const Homepage = () => {
                           <a
                             target="_blank"
                             className="flex items-center text-info text-xs gap-1"
-                            href="https://github.com/arjunnsarkarr"
+                            href="https://mywonderworld.netlify.app"
                           >
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -520,7 +528,7 @@ const Homepage = () => {
                           <a
                             target="_blank"
                             className="flex items-center text-info text-xs gap-1"
-                            href="https://github.com/arjunnsarkarr"
+                            href="https://mywonderworld.netlify.app"
                           >
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -807,9 +815,12 @@ const Homepage = () => {
                         </div>
                       </div>
                     </div>
+
                   </div>
                 </section>
 
+
+                {/* Frontend */}
                 <section className="grid gap-5 p-5 md:p-0">
                   <div className="text-xl font-bold text-highlight">
                     Frontend
@@ -1228,6 +1239,10 @@ const Homepage = () => {
                     </div>
                   </div>
                 </section>
+
+
+
+                {/* Backend */}
                 <section className="grid gap-5 p-5 md:p-0">
                   <div className="text-xl font-bold text-highlight">
                     Backend
@@ -1399,6 +1414,9 @@ const Homepage = () => {
                     </div>
                   </div>
                 </section>
+
+
+                {/* Database */}
                 <section className="grid gap-5 p-5 md:p-0">
                   <div className="text-xl font-bold text-highlight">
                     Database
@@ -1487,6 +1505,8 @@ const Homepage = () => {
                     </div>
                   </div>
                 </section>
+
+                {/* DevOps */}
                 <section className="grid gap-5 p-5 md:p-0">
                   <div className="text-xl font-bold text-highlight">DevOps</div>
                   <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl::grid-cols-5 gap-5">
@@ -1574,6 +1594,8 @@ const Homepage = () => {
                   </div>
                 </section>
 
+
+                {/* Web3 */}
                 <section className="grid gap-5 p-5 md:p-0">
                   <div className="text-xl font-bold text-highlight">Web3</div>
                   <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl::grid-cols-5 gap-5">
@@ -1826,6 +1848,7 @@ const Homepage = () => {
                   </div>
                 </section>
 
+                {/* Others */}
                 <section className="grid gap-5 p-5 md:p-0">
                   <div className="text-xl font-bold text-highlight">Others</div>
                   <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl::grid-cols-5 gap-5">
@@ -1913,8 +1936,10 @@ const Homepage = () => {
                     </div>
                   </div>
                 </section>
+
+
               </div>
-            </div>
+            
           </main>
         </div>
         <next-route-announcer style={{ position: "absolute" }} />
