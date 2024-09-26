@@ -457,13 +457,14 @@ const Homepage = () => {
                   </p>
                 </section>
 
-                {/* projects */}
-                <section className="grid gap-5 p-5 md:p-0">
+              {/* Experience */}
+              <section className="grid gap-5 p-5 md:p-0">
                   <div className="text-xl font-bold text-highlight">
-                    Projects
+                  Experience
                   </div>
                   <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl::grid-cols-5 gap-5">
-                  
+                    
+                    
                     {/* wonderworld */}
                     <div className="flex flex-col gap-3">
                       <a
@@ -523,7 +524,7 @@ const Homepage = () => {
                               <polyline points="16 18 22 12 16 6" />
                               <polyline points="8 6 2 12 8 18" />
                             </svg>
-                            1,128
+                            Freelance Project
                           </a>
                           <a
                             target="_blank"
@@ -546,11 +547,199 @@ const Homepage = () => {
                               <path d="M3 3v5h5" />
                               <path d="M12 7v5l4 2" />
                             </svg>
-                            1 day ago
+                            4 Months
                           </a>
                         </div>
                       </div>
                     </div>
+
+                            {/* Panjwani Softwares */}
+                    <div className="flex flex-col gap-3">
+                      <a target="_blank" href="/">
+                        <div className="relative aspect-video rounded-lg overflow-hidden">
+                          <img
+                            alt="Panjwani Softwares"
+                            loading="lazy"
+                            decoding="async"
+                            data-nimg="fill"
+                            className="object-cover"
+                            style={{
+                              position: "absolute",
+                              height: "100%",
+                              width: "100%",
+                              left: 0,
+                              top: 0,
+                              right: 0,
+                              bottom: 0,
+                              color: "transparent",
+                            }}
+                            sizes="100vw"
+                            src="/panjwani_logo.jpeg"
+                          />
+                          <div className="progress-bar">
+                            <div
+                              className="h-full bg-btnHighlight"
+                              style={{ width: "80%" }}
+                            />
+                          </div>
+                        </div>
+                      </a>
+                      <div className="grid gap-2 px-2">
+                        <div className="text-highlight font-bold">Panjwani Softwares</div>
+                        <div className="flex gap-2 md:gap-10">
+                          <a
+                            target="_blank"
+                            className="flex items-center text-info text-xs gap-1"
+                            href="/"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={16}
+                              height={16}
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              className="lucide lucide-code"
+                            >
+                              <polyline points="16 18 22 12 16 6" />
+                              <polyline points="8 6 2 12 8 18" />
+                            </svg>
+                            Full-Stack Developer 
+                          </a>
+                          <a
+                            target="_blank"
+                            className="flex items-center text-info text-xs gap-1"
+                            href="/"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={16}
+                              height={16}
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              className="lucide lucide-history"
+                            >
+                              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                              <path d="M3 3v5h5" />
+                              <path d="M12 7v5l4 2" />
+                            </svg>
+                            2 Months
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+      {/* Tcs */}
+      <div className="flex flex-col gap-3">
+                      <a target="_blank" href="/">
+                        <div className="relative aspect-video rounded-lg overflow-hidden">
+                          <img
+                            alt="TCS"
+                            loading="lazy"
+                            decoding="async"
+                            data-nimg="fill"
+                            className="object-cover"
+                            style={{
+                              position: "absolute",
+                              height: "100%",
+                              width: "100%",
+                              left: 0,
+                              top: 0,
+                              right: 0,
+                              bottom: 0,
+                              color: "transparent",
+                            }}
+                            sizes="100vw"
+                            src="/tcs.png"
+                          />
+                          <div className="progress-bar">
+                            <div
+                              className="h-full bg-btnHighlight"
+                              style={{ width: "80%" }}
+                            />
+                          </div>
+                        </div>
+                      </a>
+                      <div className="grid gap-2 px-2">
+                        <div className="text-highlight font-bold">Techverse Coding Studio</div>
+                        <div className="flex gap-2 md:gap-10">
+                          <a
+                            target="_blank"
+                            className="flex items-center text-info text-xs gap-1"
+                            href="/"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={16}
+                              height={16}
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              className="lucide lucide-code"
+                            >
+                              <polyline points="16 18 22 12 16 6" />
+                              <polyline points="8 6 2 12 8 18" />
+                            </svg>
+                            Frontend Dev Intern
+                          </a>
+                          <a
+                            target="_blank"
+                            className="flex items-center text-info text-xs gap-1"
+                            href="/"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={16}
+                              height={16}
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              className="lucide lucide-history"
+                            >
+                              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                              <path d="M3 3v5h5" />
+                              <path d="M12 7v5l4 2" />
+                            </svg>
+                            5 Months
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </section>
+
+
+
+
+
+
+
+
+
+
+                {/* projects */}
+                <section className="grid gap-5 p-5 md:p-0">
+                  <div className="text-xl font-bold text-highlight">
+                    Projects
+                  </div>
+                  <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl::grid-cols-5 gap-5">
+                  
+                    
 
                     {/* Social Fund Raising */}
                     <div className="flex flex-col gap-3">
