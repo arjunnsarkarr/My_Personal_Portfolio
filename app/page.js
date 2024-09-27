@@ -308,7 +308,7 @@ const Homepage = () => {
                 </a>
                 <a
                   className="px-3 py-1 bg-white text-black rounded-md hover:bg-gray-500 hover:text-white transition duration-300"
-                  href="mailto:arjunsarkar0001@gmail.com"
+                  href="mailto:arjunsarkar8756@gmail.com"
                 >
                   Contact Me
                 </a>
